@@ -351,6 +351,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Destroyed_city_FREE/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs"
 "Assets/Destroyed_city_FREE/Standard Assets/Water (Pro Only)/Sources/Scripts/Water.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Crouch.cs"
+"Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs"
+"Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Jump.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Zoom.cs"
+"Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
+"Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
+"Assets/Scripts/BulletController.cs"
+"Assets/Scripts/Shooting.cs"
 -langversion:9.0
 
 /deterministic
