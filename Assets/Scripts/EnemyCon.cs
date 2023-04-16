@@ -19,7 +19,7 @@ public class EnemyCon : MonoBehaviour
     void Update()
     {
 
-        if (Vector3.Distance(transform.position, player.position) <= 10)
+        if (Vector3.Distance(transform.position, player.position) <= 30)
         {
             navAgent.destination = player.transform.position;
         }

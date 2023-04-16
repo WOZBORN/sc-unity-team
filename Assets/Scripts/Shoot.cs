@@ -4,6 +4,7 @@ public class Shoot : MonoBehaviour
 {
     public float damage = 20f;
     public float range = 100f;
+    public AudioSource shotSound;
 
     public Camera fpsCam;
 
@@ -12,6 +13,8 @@ public class Shoot : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            shotSound.PlayOneShot(shotSound.clip);
+
             Shoots();
         }
     }
