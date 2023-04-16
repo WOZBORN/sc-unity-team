@@ -359,7 +359,8 @@
 "Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
 "Assets/Scripts/BulletController.cs"
-"Assets/Scripts/Shooting.cs"
+"Assets/Scripts/EnemyCon.cs"
+"Assets/Scripts/Shoot.cs"
 -langversion:9.0
 
 /deterministic
