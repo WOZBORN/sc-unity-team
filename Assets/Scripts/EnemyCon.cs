@@ -3,9 +3,10 @@ using UnityEngine;
 
 public class EnemyCon : MonoBehaviour
 {
-    public float health = 100f;
+    [SerializeField] QuestController enemyRoom;
     [SerializeField] NavMeshAgent agent;
     [SerializeField] NavMeshAgent navAgent;
+    public float health = 100f;
     private Transform player;
     private Vector3 startPosition;
 
@@ -14,6 +15,7 @@ public class EnemyCon : MonoBehaviour
         navAgent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         startPosition = transform.position;
+        enemyRoom.enemyCount += 1;
     }
 
     void Update()
@@ -42,5 +44,10 @@ public class EnemyCon : MonoBehaviour
     public void Dii()
     {
         Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        enemyRoom.ReduceEnemyCount();
     }
 }

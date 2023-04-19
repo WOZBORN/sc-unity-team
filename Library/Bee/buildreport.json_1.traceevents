@@ -1,0 +1,526 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681926629062892, "dur": 22369077, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926629065605, "dur": 70520, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926629136603, "dur": 442137, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926629578777, "dur": 531155, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926630109934, "dur": 21312259, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926651422215, "dur": 9753, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926759219892, "dur": 8818751, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926759220273, "dur": 5467, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926759225743, "dur": 375669, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926759601414, "dur": 2434319, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926762035736, "dur": 5991304, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926768027041, "dur": 11601, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926768039173, "dur": 33, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681926761482250, "dur": 541678, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681926761483730, "dur": 95647, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681926761991355, "dur": 12285, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681926762003646, "dur": 20261, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681926762004738, "dur": 15051, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681926762031911, "dur": 2177, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681926762030202, "dur": 3935, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926768039281, "dur": 232, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681926762153837, "dur":92515, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926762246368, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681926762246460, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681926762246485, "dur":362, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681926762246910, "dur":1265, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926762248175, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011193, "dur":114, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011307, "dur":63, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011370, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011378, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011400, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011405, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011416, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011419, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011430, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011460, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768011466, "dur":8165, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681926762247561, "dur":623, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926762248186, "dur":6356, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926762254555, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681926762254561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926762301866, "dur":59721, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681926762361592, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681926762361633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926762401969, "dur":133328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681926762535301, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681926762535518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926762535526, "dur":52033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681926762587678, "dur":27385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1681926762615069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926762615077, "dur":179127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1681926762794310, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1681926762794507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926762937267, "dur":633290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1681926763570697, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763570970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763570977, "dur":65516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763636518, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763636696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763636702, "dur":75081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763711814, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763712205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763712215, "dur":54117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763766353, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763766538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763766546, "dur":57839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763824402, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763824579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763824585, "dur":54142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763878752, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763878987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763878994, "dur":62601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763941642, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763942328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763942333, "dur":39611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763981967, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763982163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763982168, "dur":10990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763993178, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926763993410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926763993498, "dur":8254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764001771, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764001928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764001936, "dur":13452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764015426, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764015821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764015828, "dur":10139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764025985, "dur":43588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764069578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764069585, "dur":8655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764078256, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764078424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764078429, "dur":7673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764086119, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764086300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764086305, "dur":6945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764093274, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764093470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764093477, "dur":42442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764135942, "dur":78230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764214183, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764214191, "dur":8339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764222552, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764222717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764222723, "dur":72933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764295675, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764295831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764295838, "dur":36743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764332601, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764332952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764332958, "dur":23918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764356895, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764357027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764357034, "dur":12248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764369299, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764369445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764369451, "dur":5113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764374583, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764374741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764374746, "dur":21059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764395820, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764395933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764395937, "dur":18346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764414319, "dur":251935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764666260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764666268, "dur":238255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764904539, "dur":53854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926764958398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926764958405, "dur":50122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926765008547, "dur":236417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926765244971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926765244980, "dur":205764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926765450769, "dur":99493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926765550267, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926765550275, "dur":201761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681926765752061, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681926765752088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926765752114, "dur":212814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681926765964959, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681926765964988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926765964998, "dur":1772726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681926767737746, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681926767737769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926767737778, "dur":128442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681926767866247, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681926767866275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681926767866281, "dur":49605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681926767915905, "dur":95270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762247597, "dur":591, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762248189, "dur":6363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762254555, "dur":16247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681926762270809, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762402038, "dur":133682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681926762535839, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681926762536090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762539199, "dur":7548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681926762546866, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681926762547059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762547068, "dur":6269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681926762553424, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681926762553643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762555896, "dur":3766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681926762559795, "dur":9875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681926762569676, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762569686, "dur":9361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681926762579144, "dur":70573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926762649724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926762649776, "dur":920789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763570698, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763571013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926763571020, "dur":89930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763660978, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763661297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926763661303, "dur":51393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763712718, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763712915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926763712924, "dur":53678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763766619, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763766768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926763766772, "dur":57946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763824740, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763824952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926763824959, "dur":77787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763902775, "dur":2559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763905341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926763905350, "dur":76925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763982298, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763982519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926763982527, "dur":10649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763993196, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926763993489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926763993498, "dur":7718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764001239, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764001657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764001666, "dur":13713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764015401, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764015545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764015550, "dur":10098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764025673, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764026062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764026067, "dur":36406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764062487, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764062660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764062664, "dur":4831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764067512, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764067664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764067669, "dur":9958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764077646, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764077882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764077888, "dur":7440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764085354, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764085864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764085869, "dur":8026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764093920, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764094180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764094187, "dur":41696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764135904, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764136183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764136190, "dur":85994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764222203, "dur":61623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764283832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764283841, "dur":13109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764296973, "dur":34408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764331388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764331397, "dur":25181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764356594, "dur":578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764357175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764357180, "dur":13381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764370584, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764370750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764370755, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764375194, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764375310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764375314, "dur":20790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764396126, "dur":23894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764420026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764420036, "dur":212117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764632172, "dur":30684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764662863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764662872, "dur":127348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764790243, "dur":72426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764862676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764862684, "dur":41520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764904230, "dur":42361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926764946596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926764946604, "dur":61931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765008554, "dur":95358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765103917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926765103925, "dur":114556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765218522, "dur":54859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765273388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926765273396, "dur":124777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765398200, "dur":65440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765463645, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926765463654, "dur":77265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765540979, "dur":124628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765665613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926765665621, "dur":81194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681926765746872, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1681926765747182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926765749925, "dur":172968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1681926765922915, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681926765922933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926765922940, "dur":1978581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681926767901540, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1681926767901556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681926767901562, "dur":14431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1681926767916016, "dur":95161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762247632, "dur":562, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762248195, "dur":6356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762254555, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681926762254787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762403328, "dur":84314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681926762487755, "dur":11862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681926762499624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762499633, "dur":39083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681926762538882, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681926762539201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762539242, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681926762542586, "dur":10641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681926762553233, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762553249, "dur":3680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681926762557021, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681926762557237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762557268, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681926762560745, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681926762560982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762560993, "dur":5178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681926762566274, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1681926762566459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762566467, "dur":9944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1681926762576521, "dur":25012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926762601539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762602240, "dur":35543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926762637900, "dur":70678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame.exe" }}
+,{ "pid":12345, "tid":3, "ts":1681926762708584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926762708591, "dur":357906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame.exe" }}
+,{ "pid":12345, "tid":3, "ts":1681926763066525, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763066874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763149933, "dur":182716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763332682, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763332959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763332991, "dur":175808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763508819, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763509123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763509132, "dur":61802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763570960, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763571245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763571252, "dur":89770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763661050, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763661294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763661304, "dur":51835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763713165, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763713346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763713352, "dur":53317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763766692, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763766951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763767002, "dur":57678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763824698, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763824948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763824953, "dur":77779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763902767, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763903087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763903095, "dur":51454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763954570, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763954851, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763954865, "dur":27083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763981967, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763982358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763982363, "dur":11155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763993539, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926763993739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926763993747, "dur":7755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764001518, "dur":1739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764003264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764003275, "dur":12119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764015761, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764016305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764016314, "dur":42807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764059140, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764059344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764059351, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764062487, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764062649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764062655, "dur":4531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764067204, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764067373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764067378, "dur":9958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764077357, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764077560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764077568, "dur":7054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764085026, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764085677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764085684, "dur":7203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764092905, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764093087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764093093, "dur":42492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764135611, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764135980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764135989, "dur":85978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764221989, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764222248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764222253, "dur":73701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764295970, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764296507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764296513, "dur":60461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764357002, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764357224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764357231, "dur":12406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764369657, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764369892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764369898, "dur":4967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764374884, "dur":20148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764395038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764395045, "dur":19854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764414923, "dur":101355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764516285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764516294, "dur":116145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764632461, "dur":41442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764673908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764673916, "dur":183494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764857434, "dur":28668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764886108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764886115, "dur":50859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764937004, "dur":54597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926764991608, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926764991618, "dur":226573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926765218220, "dur":101156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926765319382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926765319389, "dur":221190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926765540600, "dur":47744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926765588350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926765588357, "dur":156268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926765744652, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926765745185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926765745193, "dur":11784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681926765757003, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1681926765757027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926765757033, "dur":207885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1681926765964959, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1681926765964989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926765964998, "dur":471736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1681926766436764, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681926766436787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926766436795, "dur":165569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681926766602385, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1681926766602619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926766602627, "dur":177460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1681926766780115, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/resources.resource" }}
+,{ "pid":12345, "tid":3, "ts":1681926766780137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926766780143, "dur":288310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/resources.resource" }}
+,{ "pid":12345, "tid":3, "ts":1681926767068476, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681926767068497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926767068505, "dur":693383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681926767761914, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1681926767761938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926767761945, "dur":104240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1681926767866202, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1681926767866220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926767866225, "dur":49346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1681926767915589, "dur":2726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1681926767918319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681926767918325, "dur":92797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1681926768011150, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1681926768011156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762247669, "dur":529, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762248198, "dur":6352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762254555, "dur":18963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1681926762273525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762434658, "dur":52963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1681926762487713, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681926762487918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762487941, "dur":49765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681926762537783, "dur":12062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681926762549853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762549863, "dur":4155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681926762554091, "dur":7976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681926762562073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762562082, "dur":4377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681926762566561, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1681926762566758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762566766, "dur":12613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1681926762579475, "dur":88906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926762668388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926762668395, "dur":1273442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926763941940, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926763942125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926763942132, "dur":39604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926763981768, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926763982114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926763982123, "dur":11026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926763993169, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926763993496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926763993502, "dur":7350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764000877, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764001070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764001079, "dur":13926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764015022, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764015189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764015195, "dur":10390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764025609, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764025804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764025811, "dur":34953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764060788, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764061009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764061067, "dur":5331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764066426, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764066995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764067003, "dur":11337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764078360, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764078584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764078590, "dur":11301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764089913, "dur":2610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764092530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764092539, "dur":129130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764221690, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764222095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764222102, "dur":74546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764296673, "dur":858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764297534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764297539, "dur":59698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764357259, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764357425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764357432, "dur":12192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764369641, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764369778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764369782, "dur":5059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764374858, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764374996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764375001, "dur":21139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764396173, "dur":30363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764426542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764426610, "dur":205894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764632529, "dur":89875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764722411, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764722421, "dur":181491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764903939, "dur":34216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926764938163, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926764938174, "dur":66897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926765005091, "dur":241407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926765246504, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926765246513, "dur":294400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926765540929, "dur":392481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926765933415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926765933423, "dur":727868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681926766661315, "dur":50674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1681926766711994, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926766712002, "dur":153689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1681926766865713, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681926766865732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926766865797, "dur":999486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681926767865326, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/RPG-shooter/ScUnityGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681926767865348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681926767865354, "dur":50547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/RPG-shooter/ScUnityGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681926767915922, "dur":95252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681926768027183, "dur":2310, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681926768039565, "dur": 4430, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681926768039153, "dur": 4895, "ph": "X", "name": "Write chrome-trace events", "args": {} },
