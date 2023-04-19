@@ -2,15 +2,27 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
-    [SerializeField] private int damage;
+    public GameObject talk;
+    public GameObject f;
     void Start()
     {
-        Destroy(gameObject, 4f);
+        
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(gameObject);
+        if (collision.gameObject.tag == "Player")
+        {
+            talk.SetActive(true);
+            f.SetActive(true);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
+    public void curs()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
 }

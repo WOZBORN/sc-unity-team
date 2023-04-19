@@ -7,6 +7,8 @@ public class Shoot : MonoBehaviour
     public float range = 150f;
     public float timer = 5;
     public float magaz = 30;
+    public float skoros = 0.5f;
+
     public AudioSource shotSound;
 
     public Camera fpsCam;
@@ -26,7 +28,7 @@ public class Shoot : MonoBehaviour
             if (magaz >= 1)
             {
                 timer += 2 * Time.deltaTime;
-                if (timer >= 0.5f)
+                if (timer >= skoros)
                 {
                     Shoots();
                     magaz -= 1;
